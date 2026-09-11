@@ -1,0 +1,14 @@
+version: 1
+roles:
+  - id: frontend
+    description: frontend
+    resources:
+      knowledge: &a1
+        - common
+      skills: *a1
+  - id: backend
+    description: backend
+    resources:
+      knowledge: &a2
+        - common
+      skills: *a2
